@@ -1,0 +1,3 @@
+This project aims to create a comprehensive documentation text for DendryNexus. The main objective is to cover everything about DendryNexus, starting with the main execution flow of the engine, the parser for the .dry scripting format, and an author-friendly guide to .dry scripting that covers all functionality.
+
+This documentation uses mdBook. To install mdBook, you can either install a pre-built binary from https://github.com/rust-lang/mdBook/releases or if you have cargo installed, via `cargo install mdbook`

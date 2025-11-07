@@ -1,0 +1,12 @@
+[book]
+title = "DendryNexus Documentation, Reference and Book"
+authors = ["fleetoise and contributors (see AUTHORS)"]
+language = "en"
+src = "content"
+
+
+[output.html]
+default-theme = "rust"
+
+[output.html.fold]
+enable = true
