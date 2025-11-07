@@ -1,4 +1,6 @@
 # Attributions
 
 Some code snippets in this documentation are derived from DendryNexus, a fork of Dendry,
-licensed under the MIT License (the targeted version in https://github.com/originn0/dendrynexus).
+licensed under the MIT License (the targeted version is https://github.com/originn0/dendrynexus/commit/46eeb12abf1695339c88fa737d560a0ee31cc379).
+
+Dendry by Ian Millington and others (see https://github.com/dendry/dendry).
