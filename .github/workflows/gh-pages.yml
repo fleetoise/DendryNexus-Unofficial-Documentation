@@ -16,14 +16,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install and Build mdBook
+      - name: Install mdBook
         uses: peaceiris/actions-mdbook@v2
         with:
           mdbook-version: 'latest'
-          build-dir: './DendryNexus-Unofficial-Documentation/DendryNexusBook'
+
+      - name: Build mdBook using Makefile
+        run: make build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: './DendryNexus-Unofficial-Documentation/DendryNexusBook/book'
+          publish_dir: './DendryNexusBook/book'
