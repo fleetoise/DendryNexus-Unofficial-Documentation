@@ -10,3 +10,4 @@ default-theme = "rust"
 
 [output.html.fold]
 enable = true
+level = 0
